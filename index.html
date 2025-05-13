@@ -1,129 +1,383 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Mitha</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Jade website template">
-    <meta name="keywords" content="mitha, jade, template, html, sass, jquery">
-    <meta name="author" content="Bucky Maler">
-    <link rel="stylesheet" href="assets/css/main.css">
-	  <!-- Meta Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '1213092200391548');
-fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=1213092200391548&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Meta Pixel Code -->
-  </head>
-  <body>
-    <section id="hero"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 163.5" style="enable-background:new 0 0 100 163.5;" xml:space="preserve">
-<g transform="translate(0.000000,749.000000) scale(0.100000,-0.100000)">
-	<path d="M352.5,7487.4C351.4,7484.3,0,5858.4,0,5856.4c0-0.7,74-0.9,164.1-0.7l164.3,0.7l31.6,174.6l31.6,174.6h106.9h106.9l24.4-127.7c13.5-70.3,28.6-149.1,33.6-175l9.2-47.6h163.5H1000l-1.1,4.8c-2.8,11.1-350.7,1626.1-350.7,1627.9c0,1.1-61.1,2-147.3,2C384.8,7490,353.1,7489.3,352.5,7487.4z M542.3,6713.5c22.3-163.5,40.4-298.8,40.4-300.5c0-2.8-10.7-3.3-84-3.3h-84.2l1.3,7.2c2.2,12.7,84,590.8,84,593.4C499.8,7022.7,507,6971.7,542.3,6713.5z"/>
-</g>
-</svg>
-      <header>
-        <div class="nav-toggle">
-          <p>Menu</p><span></span>
+<head>
+
+     <title>mitha's Resume - Profile HTML Page</title>
+
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+     <meta name="description" content="">
+     <meta name="keywords" content="">
+     <meta name="author" content="Tooplate">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/all.min.css">
+     <link rel="stylesheet" href="css/owl.carousel.min.css">
+     <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+     <!-- MAIN CSS -->
+     <link rel="stylesheet" href="css/tooplate-ben-resume-style.css">
+<!--
+Tooplate 2120 Ben Resume
+https://www.tooplate.com/view/2120-ben-resume
+-->
+</head>
+
+<body data-spy="scroll" data-target="#navbarNav" data-offset="50">
+
+    <!-- MENU BAR -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+
+            <a class="navbar-brand" href="#">
+                Ben Resume
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a href="#intro" class="nav-link smoothScroll">Introduction</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link smoothScroll">About Me</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#testimonials" class="nav-link smoothScroll">Reviews</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link smoothScroll">Contact</a>
+                    </li>
+                </ul>
+
+                <div class="mt-lg-0 mt-3 mb-4 mb-lg-0">
+                    <a href="#" class="custom-btn btn" download>Download CV</a>
+                </div>
+            </div>
+
         </div>
-        <ul class="nav">
-          <li><a href="#about">About</a></li>
-          <li><a href="#full-slide">Work</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </header>
-      <div class="wrapper">
-        <div class="welcome">
-          <h1><strong>Apollo</strong> Jade Template</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.</p>
+    </nav>
+
+
+    <!-- HERO -->
+    <section class="hero d-flex flex-column justify-content-center align-items-center" id="intro">
+
+         <div class="container">
+            <div class="row">
+
+                  <div class="mx-auto col-lg-5 col-md-5 col-10">
+                      <img src="images/ben.jpg" class="img-fluid" alt="Ben Resume HTML Template">
+                  </div>
+
+                   <div class="d-flex flex-column justify-content-center align-items-center col-lg-7 col-md-7 col-12">
+                        <div class="hero-text">
+
+                            <h1 class="hero-title">👋 Ben, a digital nomad</h1>
+
+                            <a href="#" class="email-link">
+                                hello@company.co
+                            </a>
+                          
+                        </div>
+                    </div>
+
+            </div>
         </div>
-        <div class="photographer"><img src="assets/img/hero.png" alt="Photographer"></div>
+    </section>
+
+
+    <section class="about section-padding" id="about">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-6 col-md-6 col-12">
+                    <h3 class="mb-4">This is Ben's Resume</h3>
+
+                    <p>Ben Resume HTML Template is brought to you by <a rel="nofollow" href="https://www.tooplate.com" target="_parent">Tooplate website</a>. You can feel free to edit and use this page for your small site. You are allowed to use this HTML template for any kind of purpose.</p>
+
+                    <p>However, please do not re-distribute the downloadable template ZIP file on any template collection website. This is strongly prohibited. Please contact Tooplate for more information.</p>
+
+                    <ul class="mt-4 mb-5 mb-lg-0 profile-list list-unstyled">
+                        <li><strong>Full Name :</strong> Ben Wilson </li>
+
+                        <li><strong>Date of Birth:</strong> 26 September 1999</li>
+
+                        <li><strong>Website :</strong> company.co</li>
+
+                        <li><strong>Email :</strong> hello@company.co</li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-5 mx-auto col-md-6 col-12">
+                    <img src="images/true-agency.jpg" class="about-image img-fluid" alt="Ben's Resume HTML Template">
+                </div>
+
+            </div>
+            <div class="row about-third">
+            	<div class="col-lg-4 col-md-4 col-12">
+                <h3>Integer volutpat</h3>
+                <p>Sed eu risus tincidunt, finibus dolor non, gravida ex. Donec lacinia mi nec erat tempus, vel consectetur ante scelerisque. Ut blandit, risus in venenatis ultricies, lacus tellus fermentum.</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                <h3>Mauris semper</h3>
+                <p>Cras et nisl vestibulum, accumsan elit sed, pretium enim. Vestibulum in condimentum magna. Maecenas quam magna, iaculis eu turpis et, commodo pulvinar leo.</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                <h3>Integer id neque</h3>
+                <p>Duis at mollis leo, venenatis congue ex. Cras urna dui, gravida euismod lectus et, cursus tempor nulla. Praesent at turpis quis ex tristique gravida quis eget eros.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- TESTIMONIAL -->
+     <section class="testimonials section-padding" id="testimonials">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-12">
+                        <h3 class="mb-5 text-center">What People say</h3>
+
+                        <div class="owl-carousel owl-theme" id="testimonials-carousel">
+                            <div class="item">
+                                <div class="testimonials-thumb d-flex">
+                                    <div class="testimonials-image">
+                                        <img src="images/testimonials/testimonial-image01.jpg" class="img-fluid" alt="testimonials image">
+                                    </div>
+
+                                    <div class="testimonials-info">
+                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
+
+                                        <h6 class="mb-0">Ben</h6>
+                                        <span>Art Director</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="testimonials-thumb d-flex">
+                                    <div class="testimonials-image">
+                                        <img src="images/testimonials/testimonial-image02.jpg" class="img-fluid" alt="testimonials image">
+                                    </div>
+
+                                    <div class="testimonials-info">
+                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
+
+                                        <h6 class="mb-0">Marie</h6>
+                                        <span>Marketing Consultant</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="testimonials-thumb d-flex">
+                                    <div class="testimonials-image">
+                                        <img src="images/testimonials/testimonial-image03.jpg" class="img-fluid" alt="testimonials image">
+                                    </div>
+
+                                    <div class="testimonials-info">
+                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
+
+                                        <h6 class="mb-0">Jen</h6>
+                                        <span>Product Manager</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="testimonials-thumb d-flex">
+                                    <div class="testimonials-image">
+                                        <img src="images/testimonials/testimonial-image04.jpg" class="img-fluid" alt="testimonials image">
+                                    </div>
+
+                                    <div class="testimonials-info">
+                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
+
+                                        <h6 class="mb-0">Wilson</h6>
+                                        <span>Web Developer</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+               </div>
+          </div>
+     </section>
+
+
+     <!-- FAQ -->
+     <section class="faq section-padding">
+        
+        <div class="container">
+            
+            <div class="row">
+
+                <div class="col-lg-12 col-12">
+
+                    <h3 class="mb-5">Frequently Asked Questions</h3>
+
+                    <div class="accordion" id="accordionExample">
+                      <div class="card">
+                        <div class="card-header" id="headingOne">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              Are those HTML templates absolutely free for any kind of usage?
+                            </button>
+                          </h2>
+                        </div>
+
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                          <div class="card-body">
+                            <p>Yes, they are 100% free and there is no hidden charge.</p>
+
+                            <p>They can be used for your commercial websites.</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="card">
+                        <div class="card-header" id="headingTwo">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              Can I use them as a CMS theme or a part of website builder?
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                          <div class="card-body">
+                            <p>Yes, you can use them.</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="card">
+                        <div class="card-header" id="headingThree">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              I cannot find a suitable HTML template. Can I request new template?
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                          <div class="card-body">
+                            <p>Yes, please tell us what you need. We will try our best to fulfill it.</p>
+                          </div>
+                        </div>
+                      </div>
+
+                    <div class="card">
+                        <div class="card-header" id="headingFour">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                              Can I redistribute your templates?
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                          <div class="card-body">
+                            <p>No, this is totally NOT allowed. Please do not redistribute our HTML templates.</p>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" id="headingFive">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                              How do I support Tooplate?
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                          <div class="card-body">
+                            <p>Please spread a word about Tooplate website to your colleagues and friends.</p>
+                          </div>
+                        </div>
+                    </div>
+
+                    <span class="faq-info-text">Please send us a message if you have anything to say. Send an email message to <strong>contact (at) tooplate (dot) com</strong></span>
+
+                </div>
+
+           	 </div><!-- col -->
+        	</div><!-- row -->
+        </div><!-- container -->
+    </section>
+
+
+     <section class="contact section-padding pt-0" id="contact">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-6 col-md-6 col-12">
+            <form action="#" method="get" class="contact-form webform"  role="form">
+                
+                <div class="form-group d-flex flex-column-reverse">
+                    <input type="text" class="form-control" name="cf-name" id="cf-name" placeholder="Your Name">
+
+                    <label for="cf-name" class="webform-label">Full Name</label>
+                </div>
+
+                <div class="form-group d-flex flex-column-reverse">
+                    <input type="email" class="form-control" name="cf-email" id="cf-email" placeholder="Your Email">
+
+                    <label for="cf-email" class="webform-label">Your Email</label>
+                </div>
+
+                <div class="form-group d-flex flex-column-reverse">
+                    <textarea class="form-control" rows="5" name="cf-message" id="cf-message" placeholder="Your Message"></textarea>
+
+                    <label for="cf-message" class="webform-label">Message</label>
+                </div>
+
+                <button type="submit" class="form-control" id="submit-button" name="submit">Send</button>
+            </form>
+          </div>
+
+            <div class="mx-auto col-lg-4 col-md-6 col-12">
+                <h3 class="my-4 pt-4 pt-lg-0">Say hello</h3>
+
+                <p class="mb-1">010-020-0340</p>
+
+                <p>
+                    <a href="#">
+                        hello@company.co
+                    <i class="fas fa-arrow-right custom-icon"></i>
+                    </a>
+                </p>
+
+                <ul class="social-links mt-2">
+                    <li><a href="https://fb.com/tooplate" rel="noopener" class="fab fa-facebook"></a></li>
+                    <li><a href="#" rel="noopener" class="fab fa-twitter"></a></li>
+                    <li><a href="#" rel="noopener" class="fab fa-instagram"></a></li>
+                    <li><a href="#" rel="noopener" class="fab fa-linkedin"></a></li>
+                    <li><a href="#" rel="noopener" class="fab fa-youtube"></a></li>
+                </ul>
+                
+              <p class="copyright-text mt-5 pt-3">Copyright &copy; 2020 Ben Resume Page</p>
+                
+                <p>Design: <a href="https://www.tooplate.com" title="free HTML templates" target="_blank">Tooplate</a></p>
+            </div>
+
+        </div>
       </div>
     </section>
-    <section id="about"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 203.6" style="enable-background:new 0 0 100 203.6;" xml:space="preserve">
-<g transform="translate(0.000000,749.000000) scale(0.100000,-0.100000)">
-	<path d="M0,6471.9V5454.2h206.5h206.5v436.2v436.2h7.6c19.8,0.3,107.9,5.7,128.3,8.2c90.2,10.9,154.9,29.4,220.4,62.8c141.1,72.6,213.3,213.3,228.3,444.1c8.7,135.3-7.3,272.3-42.9,368.3c-48.6,130.5-131,212.8-253.8,253.8c-15.5,5.2-43.5,12.8-62.2,17.1l-34,7.3l-302.2,0.8L0,7490V6471.9z M490.5,7190.8c51.1-13.6,71.2-28.8,92.9-69.8c22.3-41.9,26.4-81.5,24.7-243.2l-1.4-115l-8.4-32.1c-10.9-40.5-13.6-45.4-35.6-67.9c-21.2-22-30.7-27.4-60.6-34.5c-18.8-4.3-68.2-10.9-82.6-10.9c-3.3,0-3.8,44-3.8,291.1v291.3l26.6-1.6C456.8,7197.3,478.6,7194,490.5,7190.8z"/>
-</g>
-</svg>
-      <div class="wrapper">
-        <div class="camera"><img src="assets/img/camera.png" alt="Camera"></div>
-        <div class="blurb">
-          <h2>My name is <strong>Mitha</strong></h2>
-          <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.<br><br>Ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
-          <div class="social"><a href="#"><i class="icon-facebook"></i></a><a href="#"><i class="icon-instagram"></i></a><a href="#"><i class="icon-twitter"></i></a><a href="#"><i class="icon-pinterest-p"></i></a></div>
-        </div>
-      </div>
-    </section>
-    <section id="full-slide"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 171.2" style="enable-background:new 0 0 100 171.2;" xml:space="preserve">
-<g transform="translate(0.000000,750.000000) scale(0.100000,-0.100000)">
-	<path d="M253.7,7486.3c-151.6-74.7-233.3-224.4-251.4-460.9c-3.2-41.5-3-726.7,0-763.9c7.5-86.3,21.9-155.7,44.5-213.7c51.4-130.6,124.4-207.8,239.3-253.2l17.8-6.8l197.9,0.5l197.9,0.7l22.8,10c98.4,42.7,167.6,112.8,214.8,217.1c34.2,75.6,52.5,154.8,60.3,260.3c3.2,42,3,700.9,0,743.1c-8.2,113.2-29.2,200.4-66,276.2c-44.1,90.4-104.6,151.6-190.9,193.4l-22.8,11H499.8H281.5L253.7,7486.3zM541.1,7263.7c52.3-15.8,85.6-58.7,101.8-131.3c11.4-51.6,11.2-43.8,11.2-488.6c0-384-0.2-418.7-3.9-444.3c-9.8-68.3-28.5-112.8-59.4-141.8c-24-22.4-52.5-32.6-92-32.6c-35.2,0-57.5,6.8-82.2,25.8c-40.9,30.8-63.2,89-69.9,182c-1.6,21.7-2.1,171.2-1.6,434.9c0.9,362.1,1.4,404.1,4.8,425.1c7.1,43.4,21,89,34.2,112.6c16.4,28.8,49.5,52.7,83.8,60.5C486.3,7270.1,523.3,7269,541.1,7263.7z"/>
-</g>
-</svg>
-      <ul class="banner">
-        <li class="active"></li>
-        <li></li>
-        <li></li>
-      </ul><i class="icon-chevron-thin-left prev"></i><i class="icon-chevron-thin-right next"></i>
-    </section>
-    <section id="featured"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 248.8" style="enable-background:new 0 0 100 248.8;" xml:space="preserve">
-<g transform="translate(0.000000,749.000000) scale(0.100000,-0.100000)">
-	<path d="M0,6245.8V5001.6h500h500V5176v174.4H752.5H505v1069.8V7490H252.5H0V6245.8z"/>
-</g>
-</svg>
-      <div class="wrapper">
-        <div class="blurb">
-          <h2><strong>Ut enim</strong> ad minim</h2>
-          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-        </div>
-        <div class="featured"><img src="assets/img/featured.jpg" alt="Featured"></div>
-      </div>
-    </section>
-    <section id="three-slide"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 248.8" style="enable-background:new 0 0 100 248.8;" xml:space="preserve">
-<g transform="translate(0.000000,749.000000) scale(0.100000,-0.100000)">
-	<path d="M0,6245.8V5001.6h500h500V5176v174.4H752.5H505v1069.8V7490H252.5H0V6245.8z"/>
-</g>
-</svg>
-      <div class="wrapper">
-        <ul class="slider">
-          <li class="back"><img src="assets/img/three-slide/thumb-1.jpg"></li>
-          <li class="current"><img src="assets/img/three-slide/thumb-2.jpg"></li>
-          <li class="front"><img src="assets/img/three-slide/thumb-3.jpg"></li>
-          <li><img src="assets/img/three-slide/thumb-4.jpg"></li>
-        </ul>
-      </div><i class="icon-chevron-thin-left prev"></i><i class="icon-chevron-thin-right next"></i>
-    </section>
-    <section id="contact"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 171.2" style="enable-background:new 0 0 100 171.2;" xml:space="preserve">
-<g transform="translate(0.000000,750.000000) scale(0.100000,-0.100000)">
-	<path d="M253.7,7486.3c-151.6-74.7-233.3-224.4-251.4-460.9c-3.2-41.5-3-726.7,0-763.9c7.5-86.3,21.9-155.7,44.5-213.7c51.4-130.6,124.4-207.8,239.3-253.2l17.8-6.8l197.9,0.5l197.9,0.7l22.8,10c98.4,42.7,167.6,112.8,214.8,217.1c34.2,75.6,52.5,154.8,60.3,260.3c3.2,42,3,700.9,0,743.1c-8.2,113.2-29.2,200.4-66,276.2c-44.1,90.4-104.6,151.6-190.9,193.4l-22.8,11H499.8H281.5L253.7,7486.3zM541.1,7263.7c52.3-15.8,85.6-58.7,101.8-131.3c11.4-51.6,11.2-43.8,11.2-488.6c0-384-0.2-418.7-3.9-444.3c-9.8-68.3-28.5-112.8-59.4-141.8c-24-22.4-52.5-32.6-92-32.6c-35.2,0-57.5,6.8-82.2,25.8c-40.9,30.8-63.2,89-69.9,182c-1.6,21.7-2.1,171.2-1.6,434.9c0.9,362.1,1.4,404.1,4.8,425.1c7.1,43.4,21,89,34.2,112.6c16.4,28.8,49.5,52.7,83.8,60.5C486.3,7270.1,523.3,7269,541.1,7263.7z"/>
-</g>
-</svg>
-      <div class="wrapper">
-        <div class="blurb">
-          <h2><strong>Say</strong> Hello</h2>
-          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-        </div>
-        <form>
-          <input type="email" placeholder="Your Email">
-          <input type="text" placeholder="Subject">
-          <textarea placeholder="Message"></textarea>
-          <input type="submit" value="Send Message">
-        </form>
-      </div>
-      <p class="copyright">&copy; Apollo 2016</p>
-    </section>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
-    <script src="assets/js/functions-min.js"></script>
-  </body>
+     <!-- SCRIPTS -->
+     <script src="js/jquery.min.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+     <script src="js/smoothscroll.js"></script>
+     <script src="js/owl.carousel.min.js"></script>
+     <script src="js/custom.js"></script>
+
+</body>
 </html>
